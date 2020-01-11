@@ -1,0 +1,65 @@
+16:979  5:331  Found BIOS RSDP at F0410
+16:979  0:000  Saving ACPI tables from RSDP F0410 to EFI\CLOVER\ACPI\origin ...
+16:979  0:000   F0410: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+16:989  0:010    (Xsdt: DAFE8070, Rsdt: DAFE8028)
+16:989  0:000    DAFE8070: 'XSDT', 'WN09', Rev: 1, Len: 100 -> XSDT.aml
+17:001  0:011    DAFE8028: 'RSDT', 'WN09', Rev: 1, Len: 68 -> RSDT.aml
+17:009  0:008    Tables in Xsdt: 8
+17:009  0:000    0. DAFF1CD0: 'FACP', 'WN09', Rev: 4, Len: 244 -> FACP.aml
+17:020  0:010        (Dsdt: DAFE8168, Facs: DAFE3F80, XDsdt: DAFE8168, XFacs: 0)
+17:020  0:000        DAFE8168: 'DSDT', 'WN09', Rev: 2, Len: 39778 -> DSDT.aml
+17:029  0:008        DAFE3F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+17:038  0:009    1. DAFF1DC8: 'APIC', 'WN09', Rev: 3, Len: 114 -> APIC.aml
+17:050  0:011    2. DAFF1E40: 'MCFG', 'WN09', Rev: 1, Len: 60 -> MCFG.aml
+17:059  0:009    3. DAFF1E80: 'SSDT', 'PtidDevc', Rev: 1, Len: 1200 -> SSDT-0-PtidDevc.aml
+17:069  0:009    4. DAFF2330: 'HPET', 'WN09', Rev: 1, Len: 56 -> HPET.aml
+17:078  0:009    5. DAFF2368: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1920 -> SSDT-1-Cpu0Ist.aml
+17:088  0:009    6. DAFF2AE8: 'SSDT', 'CpuPm', Rev: 1, Len: 2454 -> SSDT-2-CpuPm.aml (Found hidden SSDT 4 pcs)
+17:099  0:011        * 150A018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454  53 53 44 54 96 09 00 00 01 1E 50 6D 52 65 66 00 Internal length = 2454 -> SSDT-x2_0-CpuPm.aml
+17:107  0:008        * DAD52A98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 76 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x2_1-ApIst.aml
+17:119  0:011        * DAD51698: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 1615  53 53 44 54 4F 06 00 00 01 E1 50 6D 52 65 66 00 Internal length = 1615 -> SSDT-x2_2-Cpu0Cst.aml
+17:130  0:011        * DAD50D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EC 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_3-ApCst.aml
+17:140  0:009  
+17:140  0:000    7. DAFF3480: 'OSFR', 'M08', Rev: 1, Len: 134 -> OSFR.aml
+17:149  0:009    Tables in Rsdt: 8
+17:149  0:000    0. DAFE80E0: 'FACP', 'WN09', Rev: 2, Len: 132 -> RSDT-FACP.aml
+17:160  0:010        (Dsdt: DAFE8168, Facs: DAFE3F40)
+17:160  0:000        DAFE8168: 'DSDT', 'WN09', Rev: 2, Len: 39778
+17:161  0:000        DAFE3F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+17:168  0:007    1. DAFF1DC8: 'APIC', 'WN09', Rev: 3, Len: 114
+17:168  0:000    2. DAFF1E40: 'MCFG', 'WN09', Rev: 1, Len: 60
+17:168  0:000    3. DAFF1E80: 'SSDT', 'PtidDevc', Rev: 1, Len: 1200
+17:168  0:000    4. DAFF2330: 'HPET', 'WN09', Rev: 1, Len: 56
+17:168  0:000    5. DAFF2368: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1920
+17:168  0:000    6. DAFF2AE8: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+17:168  0:000    7. DAFF3480: 'OSFR', 'M08', Rev: 1, Len: 134
+17:168  0:000  Found UEFI Acpi 2.0 RSDP at 1FEEA000
+17:168  0:000  Printing ACPI tables from RSDP 1FEEA000 ...
+17:168  0:000   1FEEA000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:168  0:000    (Xsdt: DAFE8070, Rsdt: DAFE8028)
+17:168  0:000    DAFE8070: 'XSDT', 'WN09', Rev: 1, Len: 100
+17:168  0:000    DAFE8028: 'RSDT', 'WN09', Rev: 1, Len: 68
+17:168  0:000    Tables in Xsdt: 8
+17:168  0:000    0. DAFF1CD0: 'FACP', 'WN09', Rev: 4, Len: 244
+17:168  0:000        (Dsdt: DAFE8168, Facs: DAFE3F80, XDsdt: DAFE8168, XFacs: 0)
+17:168  0:000        DAFE8168: 'DSDT', 'WN09', Rev: 2, Len: 39778
+17:169  0:000        DAFE3F80: 'FACS', Ver: 2, Len: 64
+17:169  0:000    1. DAFF1DC8: 'APIC', 'WN09', Rev: 3, Len: 114
+17:169  0:000    2. DAFF1E40: 'MCFG', 'WN09', Rev: 1, Len: 60
+17:169  0:000    3. DAFF1E80: 'SSDT', 'PtidDevc', Rev: 1, Len: 1200
+17:169  0:000    4. DAFF2330: 'HPET', 'WN09', Rev: 1, Len: 56
+17:169  0:000    5. DAFF2368: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1920
+17:169  0:000    6. DAFF2AE8: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+17:169  0:000    7. DAFF3480: 'OSFR', 'M08', Rev: 1, Len: 134
+17:169  0:000    Tables in Rsdt: 8
+17:169  0:000    0. DAFE80E0: 'FACP', 'WN09', Rev: 2, Len: 132
+17:169  0:000        (Dsdt: DAFE8168, Facs: DAFE3F40)
+17:169  0:000        DAFE8168: 'DSDT', 'WN09', Rev: 2, Len: 39778
+17:169  0:000        DAFE3F40: 'FACS', Ver: 0, Len: 64
+17:169  0:000    1. DAFF1DC8: 'APIC', 'WN09', Rev: 3, Len: 114
+17:169  0:000    2. DAFF1E40: 'MCFG', 'WN09', Rev: 1, Len: 60
+17:169  0:000    3. DAFF1E80: 'SSDT', 'PtidDevc', Rev: 1, Len: 1200
+17:169  0:000    4. DAFF2330: 'HPET', 'WN09', Rev: 1, Len: 56
+17:169  0:000    5. DAFF2368: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1920
+17:169  0:000    6. DAFF2AE8: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+17:169  0:000    7. DAFF3480: 'OSFR', 'M08', Rev: 1, Len: 134
